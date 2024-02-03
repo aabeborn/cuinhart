@@ -3,9 +3,12 @@
 	"extends": ["config:recommended"],
 	"hostRules": [
 		{
-			"hostType": "npm",
 			"matchHost": "https://npm.pkg.github.com/",
-			"token": "process.env.GITHUB_TOKEN"
+			"hostType": "npm",
+			"encrypted": {
+				"token": "wcFMA/xDdHCJBTolAQ//eWHlsF8T/NXacJOuoj6fEKgKiCgPifhlfbh6xgwoi1TCDTS/MC4cS9H4V9aQP0atXn8HOrItTrU1TqBXJc2pu13EYcresoHqZcib3PTDNqQ0zWdyd+kDnjQv0Rte1n4AQ4fpg6TOBbDuPDu/TElKX/P88zCpuDCFJWri0yI8WEx0p7pYg8O/ri1f1fFnb9EDKn54fYohVfFLxKwvv2REZsr1rMf5vP3IDMFPEa8SSj6JZdLFzTV80vdCe0Lsr+uLqXoKAbcQfDzunUHwlikTUn9kW9A6oMx3aWY5D07QpFbp+1DbcArbleCt85siFHCfWAomykpnhhrsGPuHvpjcsP4yFGIhqumXRYDvZDtGT2qsFY8DjuwTrcs4tUoLXVZBvp6XC6tXFGN/Ds9GPKA2cF7Z/nOYZb+Uk3b4fblpH233BE3yuWabA+ZHvcn7VeZDsDO+D/cE+S3vuIZ9uust9JL1LGyG0MNptSzaw+wxGipMFy2V1q6JdNOCGcYZBOQH1kOnxNnpknHg/NHnDsGgPmwbQqEu9/ntX+p9GhZy1m0sPektppN0tVLgcJcFuKE8cUeuo3tdJPXP7lW2+54GmfoZkzGzj9OYO8oQnKx5RAk4Mf7ZPEUeVaqO4yu3K2mebN9LpXOb4Fizh95H7NDV5LWEPEAYgVY4POzD+ixdfy3SfwEfr6y6idyyV/IKErv8fDDUNYyscCEE0fxjuJ5FTcjDlqdou9LVdy8pN3RlrM5mgK9G0P9fYBBqCKEmsYvEhfJXIC/1pcdo3AIwQ9Uhj9OXQMRg8oNXKnQz8AS3ai5TWOeauxpxv0QlJGS/gI4+oXX5vOiJ1GqZyE5RsCt00tE"
+			}
 		}
-	]
+	],
+	"npmrc": "@aabeborn:registry=https://npm.pkg.github.com/"
 }
